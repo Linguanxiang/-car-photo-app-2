@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ระบบเก็บข้อมูลรูปรถ</title>
+<title>ระบบเก็บข้อมูลรูปรถ · สาขา 2</title>
 
 <!-- PWA: ติดตั้งเป็นแอปบนหน้าจอโฮมได้ (มือถือเท่านั้น หน้าออฟฟิศไม่เกี่ยว) -->
 <link rel="manifest" href="manifest.json">
@@ -237,7 +237,10 @@ class CarPhotoApp extends React.Component {
     return (
       <div className="scr" style={{display:'flex',flexDirection:'column',minHeight:'100vh'}}>
         <div style={{padding:'26px 22px 18px',background:'#fff',borderBottom:'1px solid #e6e4df'}}>
-          <div style={{fontSize:12,letterSpacing:'.14em',color:'#2a6fdb',fontWeight:600}}>ระบบเก็บข้อมูลรูปรถ</div>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:10}}>
+            <div style={{fontSize:12,letterSpacing:'.14em',color:'#2a6fdb',fontWeight:600}}>ระบบเก็บข้อมูลรูปรถ</div>
+            <div style={{background:'#fdecec',color:'#d6483c',fontSize:12,fontWeight:700,padding:'4px 11px',borderRadius:20}}>สาขา 2</div>
+          </div>
           <div style={{fontSize:24,fontWeight:700,marginTop:4}}>ถ่าย 3 ขั้น ส่งเข้าคลาวด์</div>
           <div style={{fontSize:14,color:'#6b6f76',marginTop:6,lineHeight:1.5}}>บังคับถ่ายจากกล้องทุกขั้น · ล็อควันที่-เวลา-พิกัด GPS ลงบนรูป · ส่งเข้าคลาวด์แยกตามวันที่ให้เอง</div>
           <div style={{display:'inline-flex',alignItems:'center',gap:7,marginTop:12,background:'#eef3fb',color:'#2a6fdb',fontSize:11.5,fontWeight:600,padding:'5px 11px',borderRadius:20}}>
