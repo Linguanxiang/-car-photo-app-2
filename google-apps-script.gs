@@ -3,7 +3,7 @@
  * แล้วบันทึกลง Google Sheet ของคุณอัตโนมัติ (วันที่/เวลา/จำนวนรถ/ทะเบียน)
  *
  * ────────── วิธีใช้ ──────────
- * 1) เปิดชีต: https://docs.google.com/spreadsheets/d/1Oi0RSergpxKflQxEnPbHvH2LcGCosgvki9V2ns9s_Us/edit
+ * 1) เปิดชีต: https://docs.google.com/spreadsheets/d/1-VYQc2R73GUP5leXph23gppQWHs0VUL7v33qLhX6GrU/edit
  * 2) เมนู  Extensions → Apps Script
  * 3) ลบโค้ดเดิมทั้งหมด แล้ววางไฟล์นี้แทน → กด Save (ไอคอนแผ่นดิสก์)
  * 4) กด  Deploy → New deployment
@@ -17,7 +17,7 @@
  * ทุกครั้ง มิฉะนั้น URL เดิมจะยังรันโค้ดเวอร์ชันเก่า
  */
 
-var SHEET_ID   = '1Oi0RSergpxKflQxEnPbHvH2LcGCosgvki9V2ns9s_Us';
+var SHEET_ID   = '1-VYQc2R73GUP5leXph23gppQWHs0VUL7v33qLhX6GrU';
 var SHEET_NAME = '';   // เว้นว่าง = ใช้ชีตแรก (gid=0) หรือใส่ชื่อแท็บที่ต้องการ
 
 function doPost(e) {
